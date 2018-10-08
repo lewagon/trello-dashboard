@@ -9,7 +9,7 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <div id="board">
+    <div id="board" v-cloak>
       <div class="card" v-for="list in lists">
         <div class="card-content">{{ list.cards.length }}</div>
         <div class="card-footer">{{ list.name }}</div>
