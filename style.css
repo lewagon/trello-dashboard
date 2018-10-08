@@ -1,0 +1,30 @@
+body {
+  color: #777;
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 1px 1px 4px #ddd;
+  width: 180px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  height: 160px;
+  font-size: 80px;
+  line-height: 160px;
+  color: #34495e;
+}
+
+.card-footer {
+  font-family: monospace;
+  color: #2c3e50;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #ddd;
+  background-color: #fafafa;
+}
