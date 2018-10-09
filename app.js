@@ -16,6 +16,6 @@ Trello.authorize({
 // (1) Get the trello.com/app-key and put it in the index.html (line 8)
 // (2) Get the relevant board id thanks to '/members/me/boards' endpoint
 // (3) Render the `Vue` application (`#board`, data: { lists }) with
-//     the `/boards/:id/lists?cards=all` endpoint
+//     the `/boards/:id/lists?cards=open` endpoint
 
 // Solution: https://gist.github.com/ssaunier/5fbac44dc575194381195147cefdfba0
