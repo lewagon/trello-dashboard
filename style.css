@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 .card {
   border: 1px solid #ddd;
   text-align: center;
